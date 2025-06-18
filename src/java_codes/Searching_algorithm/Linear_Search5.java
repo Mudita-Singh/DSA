@@ -2,6 +2,9 @@ package java_codes.Searching_algorithm;
 
 import java.util.Arrays;
 
+// searching through a 2-D array
+// linear search
+
 public class Linear_Search5 {
     public static void main(String[] args) {
         int[][] arr = { {1 , 2} ,{3, 4, 5}};

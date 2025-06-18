@@ -1,5 +1,8 @@
 package java_codes.Searching_algorithm;
 
+// searching through a string
+//linear search
+
 public class Linear_Search2 {
     public static void main(String[] args) {
         String name = "Mudita";

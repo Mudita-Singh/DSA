@@ -1,5 +1,8 @@
 package java_codes.Searching_algorithm;
 
+// searching through an array
+// binary search
+
 public class Binary_Search1 {
     public static void main(String[] args) {
         int[] arr = { 1 , 2, 3, 4,5 };

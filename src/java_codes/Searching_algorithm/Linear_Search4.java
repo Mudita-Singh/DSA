@@ -1,5 +1,8 @@
 package java_codes.Searching_algorithm;
 
+// finding minimum value in an array
+// linear search
+
 public class Linear_Search4 {
     public static void main(String[] args) {
         int[] arr = { 6 , 1 , 2, 3, 4 ,5 ,};

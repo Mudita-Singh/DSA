@@ -1,5 +1,8 @@
 package java_codes.Searching_algorithm;
 
+// searching through an array within a range
+// linear search
+
 public class Linear_Search3 {
     public static void main(String[] args) {
         int[] arr = { 1 , 2, 3, 4};
