@@ -1,6 +1,7 @@
 package java_codes.Searching_algorithm;
 
 // searching through an array
+// ascending order of array
 // binary search
 
 public class Binary_Search1 {
