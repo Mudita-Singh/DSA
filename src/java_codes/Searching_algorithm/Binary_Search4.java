@@ -19,7 +19,7 @@ public class Binary_Search4 {
             if(target == arr[mid]){
                 return arr[mid];
             }
-            else if(target >= arr[mid]){
+            else if(target > arr[mid]){
                 start = mid + 1;
             }
             else{

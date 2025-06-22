@@ -12,6 +12,7 @@ public class Binary_Search3 {
 
     }
     static int search( int[] arr , int target){
+        if( target > arr[arr.length-1]){return -1;}
         int start = 0;
         int end = arr.length-1;
         while(end >= start ){
@@ -19,7 +20,7 @@ public class Binary_Search3 {
             if(target == arr[mid]){
                 return arr[mid];
             }
-            else if(target >= arr[mid]){
+            else if(target > arr[mid]){
                 start = mid + 1;
             }
             else{
