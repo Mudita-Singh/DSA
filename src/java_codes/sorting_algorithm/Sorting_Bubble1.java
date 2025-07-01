@@ -2,7 +2,7 @@ package java_codes.sorting_algorithm;
 
 import java.util.Arrays;
 
-// bubble sort algorithm
+// bubble sort
 
 public class Sorting_Bubble1 {
     public static void main(String[] args) {
