@@ -14,5 +14,4 @@ public class P8 {
             System.out.println();
         }
     }
-
 }
