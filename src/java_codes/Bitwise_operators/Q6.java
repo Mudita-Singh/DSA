@@ -4,10 +4,10 @@ package java_codes.Bitwise_operators;
 
 public class Q6 {
     public static void main(String[] args) {
-        int num = 16;
+        int num = 15 ;
 
         // method 1 using & operator
-        if((num & 1) == 0)
+        if((num & (num-1)) == 0)
             System.out.println("true");
         else
             System.out.println("false");
