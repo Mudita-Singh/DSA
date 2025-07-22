@@ -1,5 +1,7 @@
 package java_codes.Bitwise_operators;
 
+// find xor of all the numbers btw a and b
+
 public class Q8 {
     public static void main(String[] args) {
         int a = 3;

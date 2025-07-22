@@ -1,5 +1,7 @@
 package java_codes.Bitwise_operators;
 
+// calculate a power b
+
 public class Q7 {
     public static void main(String[] args) {
         int a = 2;
