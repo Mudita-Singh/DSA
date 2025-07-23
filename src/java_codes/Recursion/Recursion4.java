@@ -1,5 +1,7 @@
 package java_codes.Recursion;
 
+// find factorial of a number
+
 public class Recursion4 {
     public static void main(String[] args) {
         System.out.println(find(5));
