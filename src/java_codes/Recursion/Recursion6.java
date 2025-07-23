@@ -21,3 +21,6 @@ public class Recursion6 {
         find(n/10);
     }
 }
+
+// return type of find is void because the variable which is getting changed (sum) is outside method find
+// sum variable is also in the scope of main method  , main can also access it
