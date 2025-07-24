@@ -1,11 +1,10 @@
 package java_codes.Recursion;
 
+import java.util.ArrayList;
 
 // linear search using recursion
 // with duplicate elements
 // by storing the indices of target in a list ( new list is made everytime in find method )
-
-import java.util.ArrayList;
 
 public class Recursion14 {
     public static void main(String[] args) {
