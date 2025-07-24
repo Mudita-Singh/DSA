@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 // linear search using recursion
 // with duplicate elements
+// by storing the indices of target in a list ( static )
 
 public class Recursion12 {
     public static void main(String[] args) {
