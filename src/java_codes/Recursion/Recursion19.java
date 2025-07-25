@@ -2,49 +2,36 @@ package java_codes.Recursion;
 
 import java.util.Arrays;
 
+// selection sort
+// using recursion
+
 public class Recursion19 {
     public static void main(String[] args) {
-
-        int[] arr = { 3 , 4 , 2 , 1};
-        int[] ans = find( arr , arr.length - 1 , 0);
-        System.out.println(Arrays.toString(ans));
+        int[] arr = {3, 1, 4, 2};
+        selection(arr, arr.length, 0, 0);
+        System.out.println("Sorted array: " + Arrays.toString(arr));
     }
 
-    public static int[] find( int[] arr , int end , int max){
-
-        if(end == 0){
-            return arr;
+    // Recursive Selection Sort using i (outer loop) and j (inner loop)
+    static void selection(int[] arr, int i, int j, int maxIndex) {
+        if (i == 0) {
+            return; // base case: sorting done
         }
 
-        max = findMax( arr , end , 0 , 0);
-        swap( arr ,end , max);
+        if (j < i) {
+            if (arr[j] > arr[maxIndex]) {
+                selection(arr, i, j + 1, j); // update max index
+            } else {
+                selection(arr, i, j + 1, maxIndex); // keep current max
+            }
+        } else {
+            // One pass done: swap max element to its correct position
+            int temp = arr[maxIndex];
+            arr[maxIndex] = arr[i - 1];
+            arr[i - 1] = temp;
 
-        return find(arr , end-1 , max);
-
-    }
-
-
-
-    // return the max element
-    public static int findMax( int[] arr , int end , int idx , int max){
-
-        if(idx > end){
-            return max;
+            // repeat for the remaining part of the array
+            selection(arr, i - 1, 0, 0);
         }
-
-        if(arr[idx ] > arr[max] ){
-            max = idx ;
-        }
-
-        return findMax( arr , end , idx+1 , max);
-
     }
-
-    // swap the numbers
-    public static void swap( int[] arr , int first , int second ){
-        int temp = arr[first];
-        arr[first] = arr[second];
-        arr[second] = temp;
-    }
-
 }
