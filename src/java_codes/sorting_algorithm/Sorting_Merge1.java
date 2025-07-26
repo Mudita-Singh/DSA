@@ -4,7 +4,7 @@ import java.util.Arrays ;
 
 // merge sort
 
-public class Sorting_Merge {
+public class Sorting_Merge1 {
     public static void main(String[] args) {
         int[] arr = { 5 , 4, 3, 2 ,1};
         arr = sort(arr);
