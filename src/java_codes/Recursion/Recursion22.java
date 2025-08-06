@@ -18,7 +18,7 @@ public class Recursion22 {
 
 
         if( old.startsWith("apple")){
-            return skip(old.substring(5)); // skip apple
+            return skip(old.substring(5)); // skip "apple"
 
         }else{
 
