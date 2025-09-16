@@ -1,5 +1,7 @@
 package java_codes.Basic_codes;
 
+// reverse a string
+
 public class Q2{
     public static void main( String args[]){
         String a = "mudita";
