@@ -113,7 +113,7 @@ class AVL {
 
     public void populate(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
-            this.insert(nums[i]);
+            insert(nums[i]);
         }
     }
 
@@ -161,9 +161,6 @@ class AVL {
         return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.right);
     }
 
-}
-
-class Main {
     public static void main(String[] args) {
         AVL tree = new AVL();
 
@@ -173,4 +170,8 @@ class Main {
 
         System.out.println(tree.height());
     }
+
 }
+
+
+
