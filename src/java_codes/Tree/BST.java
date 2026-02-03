@@ -2,8 +2,7 @@ package java_codes.Tree;
 
 class BST {
 
-
-    class Node {
+    static class Node {
         int value;
         Node left;
         Node right;
