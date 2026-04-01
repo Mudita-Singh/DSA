@@ -1,20 +1,67 @@
-DSA Practice in Java 
+# 📘 DSA Practice in Java
 
-This repository contains solutions to various Data Structures and Algorithms (DSA) problems written in Java.  
-I created this as part of my learning journey and to improve my problem-solving skills.
+This repository contains my implementations of **Data Structures and Algorithms (DSA)** problems using **Java**.
+It is part of my learning journey to improve problem-solving skills and build a strong foundation for technical interviews.
 
-🗂️ Structure
-- `Arrays/` – Basic and advanced problems on arrays
-- `Strings/` – String manipulation, pattern matching, etc.
-- `LinkedList/` – Singly/doubly linked list operations
-- `Recursion/` – Backtracking, DFS-style problems
-- `Sorting/` – Bubble, Merge, Quick, etc.
+---
 
-🛠 Platforms Used
-[LeetCode Profile](https://leetcode.com/Mudita-Singh/)
+## 🚀 Repository Structure
 
-Why This Repo?
-To track my consistency, revise logic easily, and help others who are learning.
+📂 `src/java_codes/`
 
-Status
-Still updating! More problems coming every week.
+* `Basic_codes/` – Fundamental Java and logic-building programs
+* `Bitwise_operators/` – Bit manipulation problems
+* `Collection/` – Java collection framework practice
+* `Heap/` – Heap and priority queue implementations
+* `Linked_List/` – Linked list operations and problems
+* `Pattern_Questions/` – Pattern-based problems for logic building
+* `Recursion/` – Recursive and backtracking problems
+* `Searching_algorithm/` – Searching techniques (Binary Search, etc.)
+* `Tree/` – Tree data structures and traversals
+* `sorting_algorithm/` – Sorting algorithms (Bubble, Merge, Quick, etc.)
+
+---
+
+## 🛠️ Tech Stack
+
+* Java
+* Data Structures & Algorithms
+
+---
+
+## 📊 Practice Platform
+
+🔗 LeetCode Profile: https://leetcode.com/Mudita-Singh/
+
+---
+
+## ⚠️ Note
+
+This repository does **not contain all the problems I have practiced**.
+I regularly solve additional problems on LeetCode, and only selected or important solutions are added here.
+
+---
+
+## 🎯 Purpose of This Repository
+
+* Track my **learning consistency**
+* Strengthen **DSA concepts**
+* Maintain a structured resource for **revision**
+* Prepare for **technical interviews**
+
+---
+
+## 📈 Progress
+
+✔️ Continuously practicing DSA
+✔️ Updating repository with new problems
+✔️ Exploring different problem-solving approaches
+
+---
+
+## 📌 Status
+
+🚧 Ongoing — actively updating
+
+---
+Always learning, always improving ❤️
